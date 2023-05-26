@@ -1,0 +1,15 @@
+{
+  "name": "treino-jest",
+  "version": "1.0.0",
+  "description": "Projeto focado em entender sobre e como utilizar a ferramenta de teste, o Jest",
+  "main": "index.js",
+  "repository": "https://github.com/Kaue-LS/treino-jest.git",
+  "author": "Kaue-LS <kaue.ls0506@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
