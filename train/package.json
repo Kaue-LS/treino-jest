@@ -1,0 +1,12 @@
+{
+  "name": "train",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
