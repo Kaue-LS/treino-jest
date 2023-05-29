@@ -1,5 +1,6 @@
-const filterByTerm = require("../filter")
+const filterByTerm = require("../src/filterByTerm");
 
+// ...
 // Describe serve para conter bloco de testes
 describe("Filter Function", () => {
     // test stuff
@@ -22,7 +23,8 @@ describe("Filter Function", () => {
         // 2º
         expect(filterByTerm(input, "LINK")).toEqual(output);
 
-        expect(filterByTerm(input, " ")).toEqual(input);
+        expect(filterByTerm(input, "uRl")).toEqual(output2);
+        // expect(filterByTerm(input, " ")).toEqual(input);
 
     })
 })
